@@ -55,7 +55,7 @@ It configures the necessary permissions, ACLs, and SSH settings to ensure the us
   The script ensures the correct ownership and SGID settings for the site directory, ensuring files created by the user inherit the correct group ownership.
 
 - **Access Control Lists (ACL):**
-  ACLs are applied to restrict the user's access to certain directories (`ava`, `ava2`, `ava3`).
+  ACLs are applied to restrict the user's access to certain directories (`DIR1`, `DIR2`, `DIR3`).
 
 - **SSH configuration:**
   The script modifies the SSH configuration to enforce SFTP access and sets the user's home directory to the site folder.
